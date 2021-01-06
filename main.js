@@ -84,4 +84,4 @@ client.on('message', async (message) => {
     
 
 });
-client.login("BOT TOKEN"); //Head to https://discord.com/developers/applications 
+client.login(process.env.TOKEN);
